@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_09881c91315e58dfe8cd6f4968d42055 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_09881c91315e58dfe8cd6f4968d42055" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_09881c91315e58dfe8cd6f4968d42055 = L.map(
+                "map_09881c91315e58dfe8cd6f4968d42055",
+                {
+                    center: [47.45763125833333, 9.954956066666666],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_561df8ed8b310b2abd61fcabd51b3cea = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_561df8ed8b310b2abd61fcabd51b3cea.addTo(map_09881c91315e58dfe8cd6f4968d42055);
+        
+    
+            var circle_marker_77aa6c5211194b064308805697f08dfa = L.circleMarker(
+                [47.6964719, 13.3457347],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_09881c91315e58dfe8cd6f4968d42055);
+        
+    
+        var popup_7f53f1192d2e40c54e85768c2a656881 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e6f17489ea33de13563ef35c7dd5d03 = $(`<div id="html_7e6f17489ea33de13563ef35c7dd5d03" style="width: 100.0%; height: 100.0%;">Country: Austria<br>Average Survey Result: 3.24</div>`)[0];
+                popup_7f53f1192d2e40c54e85768c2a656881.setContent(html_7e6f17489ea33de13563ef35c7dd5d03);
+            
+        
+
+        circle_marker_77aa6c5211194b064308805697f08dfa.bindPopup(popup_7f53f1192d2e40c54e85768c2a656881)
+        ;
+
+        
+    
+    
+            var circle_marker_f893db3ff22b25c975f056e551d72773 = L.circleMarker(
+                [42.7249925, 25.4833039],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_09881c91315e58dfe8cd6f4968d42055);
+        
+    
+        var popup_79d8730360d417d1abcae23b4e1cb665 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b86eab42e29f3ee26d9f129b3e55d25 = $(`<div id="html_2b86eab42e29f3ee26d9f129b3e55d25" style="width: 100.0%; height: 100.0%;">Country: Bulgaria<br>Average Survey Result: 3.62</div>`)[0];
+                popup_79d8730360d417d1abcae23b4e1cb665.setContent(html_2b86eab42e29f3ee26d9f129b3e55d25);
+            
+        
+
+        circle_marker_f893db3ff22b25c975f056e551d72773.bindPopup(popup_79d8730360d417d1abcae23b4e1cb665)
+        ;
+
+        
+    
+    
+            var circle_marker_070fb577e3b60f5f6dbb84844f76691b = L.circleMarker(
+                [49.8037633, 15.4749126],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_09881c91315e58dfe8cd6f4968d42055);
+        
+    
+        var popup_fd9a247005e8b7afe7e89025910e4292 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87540e81553541785478ab1483723496 = $(`<div id="html_87540e81553541785478ab1483723496" style="width: 100.0%; height: 100.0%;">Country: Czech Republic<br>Average Survey Result: 3.48</div>`)[0];
+                popup_fd9a247005e8b7afe7e89025910e4292.setContent(html_87540e81553541785478ab1483723496);
+            
+        
+
+        circle_marker_070fb577e3b60f5f6dbb84844f76691b.bindPopup(popup_fd9a247005e8b7afe7e89025910e4292)
+        ;
+
+        
+    
+    
+            var circle_marker_ccc082c6082ee551993b59e9f26c2544 = L.circleMarker(
+                [48.864716, 2.349014],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_09881c91315e58dfe8cd6f4968d42055);
+        
+    
+        var popup_ddeeefa4187e44c754f2c6e2e630f97c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2be730979543415e3b756bd93f0320e9 = $(`<div id="html_2be730979543415e3b756bd93f0320e9" style="width: 100.0%; height: 100.0%;">Country: France<br>Average Survey Result: 3.51</div>`)[0];
+                popup_ddeeefa4187e44c754f2c6e2e630f97c.setContent(html_2be730979543415e3b756bd93f0320e9);
+            
+        
+
+        circle_marker_ccc082c6082ee551993b59e9f26c2544.bindPopup(popup_ddeeefa4187e44c754f2c6e2e630f97c)
+        ;
+
+        
+    
+    
+            var circle_marker_f33432694d628d6818465707a1ac9a27 = L.circleMarker(
+                [51.165691, 10.451526],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_09881c91315e58dfe8cd6f4968d42055);
+        
+    
+        var popup_73cf760006117e5a84c0545797435682 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_844cc517f7c89d23421c5288fd9b901c = $(`<div id="html_844cc517f7c89d23421c5288fd9b901c" style="width: 100.0%; height: 100.0%;">Country: Germany<br>Average Survey Result: 3.55</div>`)[0];
+                popup_73cf760006117e5a84c0545797435682.setContent(html_844cc517f7c89d23421c5288fd9b901c);
+            
+        
+
+        circle_marker_f33432694d628d6818465707a1ac9a27.bindPopup(popup_73cf760006117e5a84c0545797435682)
+        ;
+
+        
+    
+    
+            var circle_marker_b6dac4e91d5868708a474c65c3fcebec = L.circleMarker(
+                [39.368279, 21.863141],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_09881c91315e58dfe8cd6f4968d42055);
+        
+    
+        var popup_3d42f2f77d48040207f59f52293ddadd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12805c423bb232040dcafce4f69b49ec = $(`<div id="html_12805c423bb232040dcafce4f69b49ec" style="width: 100.0%; height: 100.0%;">Country: Greece<br>Average Survey Result: 3.28</div>`)[0];
+                popup_3d42f2f77d48040207f59f52293ddadd.setContent(html_12805c423bb232040dcafce4f69b49ec);
+            
+        
+
+        circle_marker_b6dac4e91d5868708a474c65c3fcebec.bindPopup(popup_3d42f2f77d48040207f59f52293ddadd)
+        ;
+
+        
+    
+    
+            var circle_marker_1e772d79adad0c66a33f39fa4940791a = L.circleMarker(
+                [43.036776, 12.678565],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_09881c91315e58dfe8cd6f4968d42055);
+        
+    
+        var popup_426f691633a41792f53c6dca0bf51847 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a5b9c358495ee2eef69c20b3aeaacf0 = $(`<div id="html_3a5b9c358495ee2eef69c20b3aeaacf0" style="width: 100.0%; height: 100.0%;">Country: Italy<br>Average Survey Result: 3.54</div>`)[0];
+                popup_426f691633a41792f53c6dca0bf51847.setContent(html_3a5b9c358495ee2eef69c20b3aeaacf0);
+            
+        
+
+        circle_marker_1e772d79adad0c66a33f39fa4940791a.bindPopup(popup_426f691633a41792f53c6dca0bf51847)
+        ;
+
+        
+    
+    
+            var circle_marker_2448056b5ee0b08a321a469eabe3ecc3 = L.circleMarker(
+                [52.536273, 19.050639],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_09881c91315e58dfe8cd6f4968d42055);
+        
+    
+        var popup_65b56c9f349c4e97414e3f20fd7b3c64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2711cbdc5ec4d4e96f2376c22754a1d = $(`<div id="html_b2711cbdc5ec4d4e96f2376c22754a1d" style="width: 100.0%; height: 100.0%;">Country: Poland<br>Average Survey Result: 3.64</div>`)[0];
+                popup_65b56c9f349c4e97414e3f20fd7b3c64.setContent(html_b2711cbdc5ec4d4e96f2376c22754a1d);
+            
+        
+
+        circle_marker_2448056b5ee0b08a321a469eabe3ecc3.bindPopup(popup_65b56c9f349c4e97414e3f20fd7b3c64)
+        ;
+
+        
+    
+    
+            var circle_marker_5187b617ce6d25dbe4ee61e7c5b28645 = L.circleMarker(
+                [53.094024, -8.019675],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_09881c91315e58dfe8cd6f4968d42055);
+        
+    
+        var popup_ce97728543db355eb9802362e1746982 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0a4cb0498762e6944873975c2f6a480 = $(`<div id="html_c0a4cb0498762e6944873975c2f6a480" style="width: 100.0%; height: 100.0%;">Country: Republic of Ireland<br>Average Survey Result: 3.44</div>`)[0];
+                popup_ce97728543db355eb9802362e1746982.setContent(html_c0a4cb0498762e6944873975c2f6a480);
+            
+        
+
+        circle_marker_5187b617ce6d25dbe4ee61e7c5b28645.bindPopup(popup_ce97728543db355eb9802362e1746982)
+        ;
+
+        
+    
+    
+            var circle_marker_bb67081f5c8c68616d02a306471a88df = L.circleMarker(
+                [46.1491664, 14.9860106],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_09881c91315e58dfe8cd6f4968d42055);
+        
+    
+        var popup_5f64d55b613fbfb229fe79aff2020afd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65e4890a524625a8ca9b6dcf2ae52d4c = $(`<div id="html_65e4890a524625a8ca9b6dcf2ae52d4c" style="width: 100.0%; height: 100.0%;">Country: Slovenia<br>Average Survey Result: 3.60</div>`)[0];
+                popup_5f64d55b613fbfb229fe79aff2020afd.setContent(html_65e4890a524625a8ca9b6dcf2ae52d4c);
+            
+        
+
+        circle_marker_bb67081f5c8c68616d02a306471a88df.bindPopup(popup_5f64d55b613fbfb229fe79aff2020afd)
+        ;
+
+        
+    
+    
+            var circle_marker_11693fe06d2570049daa27f469066411 = L.circleMarker(
+                [39.67337, -4.767726],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_09881c91315e58dfe8cd6f4968d42055);
+        
+    
+        var popup_7ccace031d0ceda226b1fdecc39303b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f88bd6eaf5d80b2ae77d60e522ea5c8 = $(`<div id="html_4f88bd6eaf5d80b2ae77d60e522ea5c8" style="width: 100.0%; height: 100.0%;">Country: Spain<br>Average Survey Result: 3.55</div>`)[0];
+                popup_7ccace031d0ceda226b1fdecc39303b0.setContent(html_4f88bd6eaf5d80b2ae77d60e522ea5c8);
+            
+        
+
+        circle_marker_11693fe06d2570049daa27f469066411.bindPopup(popup_7ccace031d0ceda226b1fdecc39303b0)
+        ;
+
+        
+    
+    
+            var circle_marker_deebd3ff5c468f1733e014f9335979ad = L.circleMarker(
+                [55.378052, -3.435973],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_09881c91315e58dfe8cd6f4968d42055);
+        
+    
+        var popup_59100aed1c5c980bc9ac87750cb24bf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a258d37c5a62bd8af1a4fabdeebe8faa = $(`<div id="html_a258d37c5a62bd8af1a4fabdeebe8faa" style="width: 100.0%; height: 100.0%;">Country: United Kingdom<br>Average Survey Result: 3.46</div>`)[0];
+                popup_59100aed1c5c980bc9ac87750cb24bf2.setContent(html_a258d37c5a62bd8af1a4fabdeebe8faa);
+            
+        
+
+        circle_marker_deebd3ff5c468f1733e014f9335979ad.bindPopup(popup_59100aed1c5c980bc9ac87750cb24bf2)
+        ;
+
+        
+    
+</script>
+</html>
